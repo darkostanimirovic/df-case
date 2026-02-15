@@ -1,0 +1,30 @@
+:root {
+  --df-color-neutral-50: rgb(247 249 252);
+  --df-color-neutral-100: rgb(240 242 245);
+  --df-color-neutral-200: rgb(223 230 240);
+  --df-color-neutral-300: rgb(206 218 237);
+  --df-color-neutral-400: rgb(155 166 185);
+  --df-color-neutral-600: rgb(77 86 102);
+  --df-color-neutral-700: rgb(55 62 73);
+  --df-color-neutral-900: rgb(22 22 22);
+  --df-color-white: rgb(255 255 255);
+
+  --df-color-primary-50: rgb(245 250 255);
+  --df-color-primary-200: rgb(219 238 255);
+  --df-color-primary-500: rgb(27 112 240);
+  --df-color-primary-600: rgb(2 78 193);
+  --df-color-primary-700: rgb(13 66 141);
+
+  --df-color-success: rgb(73 177 73);
+  --df-color-warning: rgb(255 190 26);
+  --df-color-danger: rgb(244 77 68);
+  --df-color-green-marketing: rgb(12 173 95);
+
+  --df-font-body: Inter, sans-serif;
+  --df-font-header: Soehne, sans-serif;
+
+  --df-radius-sm: 0.375rem;
+  --df-radius-md: 0.5rem;
+  --df-radius-lg: 0.75rem;
+  --df-radius-pill: 9999px;
+}
