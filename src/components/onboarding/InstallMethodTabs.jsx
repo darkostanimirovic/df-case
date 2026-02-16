@@ -84,10 +84,6 @@ Please follow the instructions to add the tracking script to the appropriate loc
         contains context about where to place the tracker script based on your tech stack.
       </p>
       <CodeSnippet code={agentInstruction} label="Copy instruction" />
-      <div className="install-tab-info">
-        <strong>Requirements:</strong> The coding agent needs access to your codebase. This is ideal for
-        technical users who want the AI to automatically determine the best placement.
-      </div>
     </div>
   )
 }
