@@ -117,12 +117,6 @@ export const GOAL_STEP3_CONTENT = {
         helper:
           "Push identified companies into CRM as accounts/leads and review visit notes there.",
       },
-      {
-        id: "dashboard",
-        label: "Dealfront dashboard only",
-        helper:
-          "Start by reviewing matched companies directly in Leadfeeder custom feeds.",
-      },
     ],
   },
   "route-intent": {
