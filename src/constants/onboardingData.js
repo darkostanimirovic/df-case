@@ -95,37 +95,99 @@ export const GOAL_CARDS = [
 
 // Goal-Specific Content
 export const GOAL_STEP3_CONTENT = {
-  'identify-visitors': {
-    heading: 'How would you like to review new visitor matches first?',
-    description: 'Choose where Dealfront should deliver company insights so you can reach out manually.',
+  "identify-visitors": {
+    heading: "How would you like to review new visitor matches?",
+    description: "Choose where Dealfront should deliver company insights.",
     options: [
-      { id: 'email', label: 'Email digest', helper: 'Receive daily/weekly summaries with company names, pages visited, and quick links.' },
-      { id: 'slack', label: 'Slack updates', helper: 'Post matched companies in a channel so your team can qualify visitors together.' },
-      { id: 'crm', label: 'CRM handoff', helper: 'Push identified companies into CRM as accounts/leads and review visit notes there.' },
-      { id: 'dashboard', label: 'Dealfront dashboard only', helper: 'Start by reviewing matched companies directly in Leadfeeder custom feeds.' },
+      {
+        id: "email",
+        label: "Email digest",
+        helper:
+          "Receive daily/weekly summaries with company names, pages visited, and quick links.",
+      },
+      {
+        id: "slack",
+        label: "Slack updates",
+        helper:
+          "Post matched companies in a channel so your team can qualify visitors together.",
+      },
+      {
+        id: "crm",
+        label: "CRM handoff",
+        helper:
+          "Push identified companies into CRM as accounts/leads and review visit notes there.",
+      },
+      {
+        id: "dashboard",
+        label: "Dealfront dashboard only",
+        helper:
+          "Start by reviewing matched companies directly in Leadfeeder custom feeds.",
+      },
     ],
   },
-  'route-intent': {
-    heading: 'Where should high-intent visitor alerts be routed?',
-    description: 'This controls where sales gets notified first when target accounts hit key pages.',
+  "route-intent": {
+    heading: "Where should high-intent visitor alerts be routed?",
+    description:
+      "This controls where sales gets notified first when target accounts hit key pages.",
     options: [
-      { id: 'email', label: 'Instant email alerts', helper: 'Notify reps with high-intent visits and suggested follow-up context.' },
-      { id: 'slack', label: 'Route to Slack channel', helper: 'Send real-time alerts to your sales channel for fast response.' },
-      { id: 'crm', label: 'Create CRM activity', helper: 'Send matched companies to CRM and attach visit data for rep workflows.' },
-      { id: 'dashboard', label: 'Queue in dashboard', helper: 'Keep alerts in Dealfront first while you finalize routing rules.' },
+      {
+        id: "email",
+        label: "Instant email alerts",
+        helper:
+          "Notify reps with high-intent visits and suggested follow-up context.",
+      },
+      {
+        id: "slack",
+        label: "Route to Slack channel",
+        helper:
+          "Send real-time alerts to your sales channel for fast response.",
+      },
+      {
+        id: "crm",
+        label: "Create CRM activity",
+        helper:
+          "Send matched companies to CRM and attach visit data for rep workflows.",
+      },
+      {
+        id: "dashboard",
+        label: "Queue in dashboard",
+        helper:
+          "Keep alerts in Dealfront first while you finalize routing rules.",
+      },
     ],
   },
-  'scoring-automation': {
-    heading: 'Where should automation outcomes be delivered first?',
-    description: 'Pick the destination that will receive scored companies and trigger follow-up actions.',
+  "scoring-automation": {
+    heading: "Where should automation outcomes be delivered first?",
+    description:
+      "Pick the destination that will receive scored companies and trigger follow-up actions.",
     options: [
-      { id: 'email', label: 'Automation status by email', helper: 'Get summaries showing which accounts matched your scoring logic.' },
-      { id: 'slack', label: 'Automation feed in Slack', helper: 'Post rule matches to Slack with priority context for your team.' },
-      { id: 'crm', label: 'Enroll in CRM workflows', helper: 'Send scored accounts to CRM for lifecycle stages, tasks, and ownership.' },
-      { id: 'dashboard', label: 'Score in dashboard first', helper: 'Run scoring inside Dealfront now and connect downstream tools later.' },
+      {
+        id: "email",
+        label: "Automation status by email",
+        helper:
+          "Get summaries showing which accounts matched your scoring logic.",
+      },
+      {
+        id: "slack",
+        label: "Automation feed in Slack",
+        helper:
+          "Post rule matches to Slack with priority context for your team.",
+      },
+      {
+        id: "crm",
+        label: "Enroll in CRM workflows",
+        helper:
+          "Send scored accounts to CRM for lifecycle stages, tasks, and ownership.",
+      },
+      {
+        id: "dashboard",
+        label: "Score in dashboard first",
+        helper:
+          "Run scoring inside Dealfront now and connect downstream tools later.",
+      },
     ],
   },
-}
+};
 
 export const GOAL_DEFAULT_DESTINATION = {
   'identify-visitors': 'email',
